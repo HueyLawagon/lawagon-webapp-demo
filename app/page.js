@@ -8,7 +8,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <h1 className="text-2xl font-bold text-indigo-600">TailwindDemo</h1>
+              <h1 className="text-2xl font-bold text-indigo-600">LawagonTailwindDemo</h1>
             </div>
             <div className="hidden md:flex space-x-8">
               <a href="#buttons" className="text-gray-700 hover:text-indigo-600 transition">Buttons</a>
@@ -29,16 +29,17 @@ export default function Home() {
       <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
         <div className="text-center">
           <h1 className="text-5xl font-extrabold text-gray-900 mb-4">
-            Tailwind CSS Components
+            Tailwind Showcase Tutorial
           </h1>
           <p className="text-xl text-gray-600 mb-8">
-            A showcase of beautiful, responsive components built with Tailwind CSS
+            By Hugh Louis O. Lawagon
           </p>
         </div>
 
         {/* Buttons Section */}
         <section id="buttons" className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Buttons</h2>
+          <p className="italic text-black">Here are the different button designs that Tailwind offers.</p>
           <div className="bg-white rounded-lg shadow-md p-8">
             <div className="flex flex-wrap gap-4">
               <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition">
@@ -66,6 +67,7 @@ export default function Home() {
         {/* Colors Section */}
         <section id="colors" className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Color Palette</h2>
+          <p className="italic text-black">Many colors you can use to design your website.</p>
           <div className="bg-white rounded-lg shadow-md p-8">
             <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
               <div className="text-center">
@@ -99,6 +101,7 @@ export default function Home() {
         {/* Typography Section */}
         <section id="text" className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Typography</h2>
+          <p className="italic text-black">Just like in regular HTML, you can write with headers. But Tailwind allows developers to have headers larger than h1.</p>
           <div className="bg-white rounded-lg shadow-md p-8 space-y-4">
             <h1 className="text-5xl font-bold text-gray-900">Heading 1 - Extra Large</h1>
             <h2 className="text-4xl font-bold text-gray-900">Heading 2 - Large</h2>
@@ -186,6 +189,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 text-center">
           <p className="text-lg">Built with Next.js and Tailwind CSS</p>
           <p className="text-sm text-gray-400 mt-2">A beginner-friendly tutorial project</p>
+          <p className="text-sm text-gray-400 mt-2">by Hugh Louis O. Lawagon</p>
         </div>
       </footer>
     </div>
